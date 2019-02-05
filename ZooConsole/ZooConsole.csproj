@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B80016C2-4100-482E-A6B6-53AA9D60DF0B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZooConsole</RootNamespace>
+    <AssemblyName>ZooConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsoleHelper.cs" />
+    <Compile Include="ConsoleUtil.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Accounts\Accounts.csproj">
+      <Project>{dd92848a-816d-4835-8f51-ce72bd5407db}</Project>
+      <Name>Accounts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Animals\Animals.csproj">
+      <Project>{ce73316d-b770-4638-a44e-5732a4182f4f}</Project>
+      <Name>Animals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BirthingRooms\BirthingRooms.csproj">
+      <Project>{c1b52860-8b01-4800-973a-30ae80b7e507}</Project>
+      <Name>BirthingRooms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BoothItems\BoothItems.csproj">
+      <Project>{0115e053-5070-4a75-9566-f3c86b43d03d}</Project>
+      <Name>BoothItems</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyCollectors\MoneyCollectors.csproj">
+      <Project>{1df4cea5-9e59-4be6-a00f-ee3cf3087c08}</Project>
+      <Name>MoneyCollectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\People\People.csproj">
+      <Project>{aa1b7651-2f2c-4348-aa31-14fddcdbdc5a}</Project>
+      <Name>People</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reproducers\Reproducers.csproj">
+      <Project>{28bf9fc3-ea4a-49ad-a49c-fd8ca77174f4}</Project>
+      <Name>Reproducers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{afb7aa8c-157a-405d-8574-0355c1631e61}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wallets\Wallets.csproj">
+      <Project>{e0e3f840-4d19-49f7-9ded-e76e1ee07d73}</Project>
+      <Name>Wallets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zoos\Zoos.csproj">
+      <Project>{9116e7a7-d531-4b54-a3df-9552f4f06139}</Project>
+      <Name>Zoos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\bin\Debug\Wallets.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\bin\Debug\Wallets.pdb
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\bin\Debug\MoneyCollectors.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\bin\Debug\MoneyCollectors.pdb
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\obj\Debug\Wallets.csprojResolveAssemblyReference.cache
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\obj\Debug\Wallets.csproj.CoreCompileInputs.cache
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\obj\Debug\Wallets.csproj.CopyComplete
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\obj\Debug\Wallets.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\Wallets\obj\Debug\Wallets.pdb

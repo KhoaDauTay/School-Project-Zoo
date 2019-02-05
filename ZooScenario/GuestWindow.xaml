@@ -1,0 +1,72 @@
+﻿<Window x:Class="ZooScenario.GuestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZooScenario"
+        mc:Ignorable="d"
+        Title="GuestWindow" Height="373.796" Width="315.455" Loaded="window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="4" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="1" Grid.Column="0" Content="Name" HorizontalAlignment="Right" />
+        <TextBox Grid.Row="1" Grid.Column="2" x:Name="nameTextBox" LostFocus="nameTextBox_LostFocus" />
+        <Label Grid.Row="3" Grid.Column="0" Content="Gender" HorizontalAlignment="Right" />
+        <ComboBox Grid.Row="3" Grid.Column="2" x:Name="genderComboBox" SelectionChanged="genderComboBox_SelectionChanged" />
+        <Label Grid.Row="5" Grid.Column="0" Content="Age" HorizontalAlignment="Right" />
+        <TextBox Grid.Row="5" Grid.Column="2" x:Name="ageTextBox" LostFocus="ageTextBox_LostFocus" />
+        <Label Grid.Row="7" Grid.Column="0" Content="Wallet color" HorizontalAlignment="Right" />
+        <ComboBox Grid.Row="7" Grid.Column="2" x:Name="walletColorComboBox" SelectionChanged="walletColorComboBox_SelectionChanged" />
+        <Label Grid.Row="9" Grid.Column="0" Content="Wallet balance" HorizontalAlignment="Right" />
+        <Label Grid.Row="11" Grid.Column="0" Content="Account balance" HorizontalAlignment="Right" />
+        <Grid Grid.Row="9" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25" />
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <Button x:Name="walletAddMoneyButton" Content="+" Width="23" Height="23" Click="walletAddMoneyButton_Click" />
+            <ComboBox x:Name="walletMoneyAmountComboBox" Width="75" Height="23" Grid.Column="1" />
+            <Button x:Name="walletSubtractMoneyButton" Grid.Column="2" Content="-" Width="23" Height="23" Click="walletSubtractMoneyButton_Click" />
+            <Label x:Name="walletMoneyBalanceLabel" Grid.Row="1" Grid.Column="1" Height="25" HorizontalAlignment="Center" />
+        </Grid>
+        <Grid Grid.Row="11" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25" />
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <Button x:Name="accountAddMoneyButton" Content="+" Width="23" Height="23" Click="accountAddMoneyButton_Click" />
+            <ComboBox x:Name="accountMoneyAmountComboBox" Width="75" Height="23" Grid.Column="1" />
+            <Button x:Name="accountSubtractMoneyButton" Grid.Column="2" Content="-" Width="23" Height="23" Click="accountSubtractMoneyButton_Click" />
+            <Label x:Name="accountMoneyBalanceLabel" Grid.Row="1" Grid.Column="1" Height="25" HorizontalAlignment="Center" />
+        </Grid>
+        <Button x:Name="okButton" Content="OK" Height="22" Width="76" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,90,-67" IsDefault="True" Click="okButton_Click" Grid.Row="11" Grid.Column="2" />
+        <Button x:Name="cancelButton" Content="Cancel" Height="23" Width="75" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,-67" IsCancel="True" Grid.Column="2" Grid.Row="11" />
+    </Grid>
+</Window>

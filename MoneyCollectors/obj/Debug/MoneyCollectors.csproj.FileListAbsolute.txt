@@ -1,0 +1,6 @@
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\MoneyCollectors\bin\Debug\MoneyCollectors.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\MoneyCollectors\bin\Debug\MoneyCollectors.pdb
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\MoneyCollectors\obj\Debug\MoneyCollectors.csprojResolveAssemblyReference.cache
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\MoneyCollectors\obj\Debug\MoneyCollectors.csproj.CoreCompileInputs.cache
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\MoneyCollectors\obj\Debug\MoneyCollectors.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\MoneyCollectors\obj\Debug\MoneyCollectors.pdb

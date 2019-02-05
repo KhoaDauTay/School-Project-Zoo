@@ -1,0 +1,11 @@
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\bin\Debug\VendingMachines.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\bin\Debug\VendingMachines.pdb
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\bin\Debug\Foods.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\bin\Debug\MoneyCollectors.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\bin\Debug\Foods.pdb
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\bin\Debug\MoneyCollectors.pdb
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\obj\Debug\VendingMachines.csprojResolveAssemblyReference.cache
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\obj\Debug\VendingMachines.csproj.CoreCompileInputs.cache
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\obj\Debug\VendingMachines.csproj.CopyComplete
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\obj\Debug\VendingMachines.dll
+E:\Users\Jonathan Monty\Desktop\Desktop workspace\FlashDrive Backup\College Year 2\OOP 2 - Thursday\LP6\6.3 Zoo Assignment\OOP 2 Zoo 6.3 Monty\OOP 2 Zoo 6.3 Monty\VendingMachines\obj\Debug\VendingMachines.pdb

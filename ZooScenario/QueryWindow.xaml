@@ -1,0 +1,26 @@
+﻿<Window x:Class="ZooScenario.QueryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZooScenario"
+        mc:Ignorable="d"
+        Title="QueryWindow" Height="250" Width="500">
+    <Grid>
+        <Button x:Name="totalAnimalWeightButton" Content="Total Animal Weight" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="totalAnimalWeightButton_Click"/>
+        <Button x:Name="averageAnimalWeightButton" Content="Average Animal Weight" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="averageAnimalWeightButton_Click"/>
+        <Button x:Name="animalCountButton" Content="Count Animals" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="animalCountButton_Click"/>
+        <Button x:Name="firstHeavyAnimalButton" Content="Get Heavy Animals" HorizontalAlignment="Left" Margin="134,10,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="firstHeavyAnimalButton_Click"/>
+        <Button x:Name="firstYoungGuestButton" Content="Get Youngest Guests" HorizontalAlignment="Left" Margin="134,40,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="firstYoungGuestButton_Click"/>
+        <Button x:Name="firstFemaleDingoButton" Content="Get Female Dingoes" HorizontalAlignment="Left" Margin="134,70,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="firstFemaleDingoButton_Click"/>
+        <Label x:Name="Result" Content="Result:" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="23" Margin="60,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <DataGrid x:Name="resultDataGrid" HorizontalAlignment="Left" Margin="195,118,0,0" VerticalAlignment="Top" Height="92" Width="287"/>
+        <Button x:Name="GetGuestsByAgeButton" Content="Get Guests By Age" HorizontalAlignment="Left" Margin="258,10,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="GetGuestsByAgeButton_Click"/>
+        <Button x:Name="GetFlyingAnimalsButton" Content="Get Flying Animals" HorizontalAlignment="Left" Margin="258,40,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="GetFlyingAnimalsButton_Click"/>
+        <Button x:Name="GetAdoptedAnimalsButton" Content="Get Adopted Animals" HorizontalAlignment="Left" Margin="258,70,0,0" VerticalAlignment="Top" Width="119" Height="25" Click="GetAdoptedAnimalsButton_Click"/>
+        <Button x:Name="GetTotalBalanceByWalletColor" Content="Balance By Color" HorizontalAlignment="Left" Margin="382,10,0,0" VerticalAlignment="Top" Width="100" Height="25" Click="GetTotalBalanceByWalletColor_Click"/>
+        <Button x:Name="GetAverageWeightByAnimalType" Content="Avg Wght Animal" HorizontalAlignment="Left" Margin="382,40,0,0" VerticalAlignment="Top" Width="100" Height="25" Click="GetAverageWeightByAnimalType_Click"/>
+
+    </Grid>
+</Window>
